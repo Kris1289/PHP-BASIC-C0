@@ -1,30 +1,24 @@
 <?php
-$score = 5;
-echo $score;
-?>
-
-<?php
-$x = "Kris";
-
-echo $x;
-echo "<br>";
+$voornaam = "Kris";
+    echo gettype($voornaam);
 ?>
 
 <?php
 $leeftijd = 17;
-echo $leeftijd;
-$waterprijs = 1,65;
-echo $waterprijs;
+    echo gettype($leeftijd);
+?>
+
+<?php
+$leeftijd = 1.7;
+    echo gettype($leeftijd);
 ?>
 
 <?php
 $test = true;
-echo "de waarde van test is: " . $test . "<br>";
-$test = null;
-echo "de waarde van test is: " . $test . "<br>";
+    echo gettype($test);
 ?>
 
 <?php
-$voornaam = "Kris";
-    echo gettype($voornaam);
+$test = null;
+    echo gettype($test);
 ?>
