@@ -1,7 +1,11 @@
+<!DOCTYPE html>
+<html>
+<body>
+
 <?php
-$myMovies = ["Spiderman", "Batman", "The Joker"];
-echo $myMovies[0];
-echo $myMovies[1];
-echo $myMovies[2];
-    
+$Movies = array ("Spooderman", "Ironicman", "Superiorman");
+echo "<li>$Movies[0]</li><li>$Movies[1]</li><li>$Movies[2]</li>";
 ?>
+
+</body>
+</html> 
