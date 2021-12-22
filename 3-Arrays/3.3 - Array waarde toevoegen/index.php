@@ -3,9 +3,9 @@
 <body>
 
 <?php
-$myHeroes = ['Powerman', 'Black Widow'];
-array_push($myHeroes, 'Superhelden');
-print_r($myHeroes);
+ $myHeroes =  ['Spiderman', 'Black Widow', 'Raccoon'];
+ array_push($myHeroes, 'Superhelden');
+ print_r($myHeroes)
 ?>
 </body>
 </html> 
