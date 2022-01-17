@@ -1,7 +1,10 @@
-<?php
+<!DOCTYPE html>
+<html>
+<body>
 
-$item = "<li>Sweater</li>";
-$item .= "<li>Televisie</li>";
-$item .= "<li>Kast</li>";
-echo $item;
+<?php
+echo "<ul><li>Kaas</li><li>Ham</li><li>Worst</li></ul>";
 ?>
+
+</body>
+</html>
