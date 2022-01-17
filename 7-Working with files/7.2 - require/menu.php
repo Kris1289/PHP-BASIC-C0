@@ -1,7 +1,14 @@
-<?php
-
-$item = "<li>Sweater</li>";
-$item .= "<li>Televisie</li>";
-$item .= "<li>Kast</li>";
-echo $item;
-?>
+<html>
+<head>
+</head>
+<body>
+    
+    <div class = "menu">
+      <ul>
+        <li> poging</li>
+        <li> mislukt</li>
+        <li> voltooid</li>
+     </ul>
+    </div>
+</body>
+</html>
