@@ -1,24 +1,23 @@
-<?php
-$voornaam = "Kris";
-    echo gettype($voornaam);
-?>
+<!DOCTYPE html>
+<html>
+<body>
 
 <?php
-$leeftijd = 17;
-    echo gettype($leeftijd);
+$a = "Kris";
+echo gettype($a) . "<br>";
+
+$b = false;
+echo gettype($b) . "<br>";
+
+$c = 12.12;
+echo gettype($c) . "<br>";
+
+$d = NULL;
+echo gettype($d) . "<br>";
+
+$e = "Hi";
+echo gettype($e) . "<br>";
 ?>
 
-<?php
-$leeftijd = 1.7;
-    echo gettype($leeftijd);
-?>
-
-<?php
-$test = true;
-    echo gettype($test);
-?>
-
-<?php
-$test = null;
-    echo gettype($test);
-?>
+</body>
+</html> 
